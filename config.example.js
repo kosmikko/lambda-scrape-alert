@@ -1,4 +1,6 @@
 module.exports = {
+  filename: 'scrape.js',
+  s3_bucket: '',
   aws_region: 'us-west-2',
   email_from: 'x',
   email_to: 'y',

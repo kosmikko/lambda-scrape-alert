@@ -2,7 +2,7 @@
   "name": "lsa",
   "description": "",
   "memory": 128,
-  "timeout": 5,
+  "timeout": 10,
   "role": "arn:aws:iam::052472638721:role/lsa_lambda_function",
   "environment": {},
   "handler": "main.default",  
