@@ -1,0 +1,21 @@
+{
+  "name": "lambda-scrape-alert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape lib/test/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apex.js": "^2.0.0",
+    "aws-sdk": "^2.7.25",
+    "cheerio": "^0.22.0",
+    "got": "^6.7.1"
+  },
+  "devDependencies": {
+    "blue-tape": "^1.0.0",
+    "browserify": "^13.3.0"
+  }
+}

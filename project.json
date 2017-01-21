@@ -1,0 +1,13 @@
+{
+  "name": "lsa",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::052472638721:role/lsa_lambda_function",
+  "environment": {},
+  "handler": "main.default",  
+  "hooks": {
+    "build": "../../node_modules/.bin/browserify --node -s default -o main.js index.js",
+    "clean": "rm -f main.js"
+  }
+}
